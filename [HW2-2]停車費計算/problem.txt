@@ -1,0 +1,56 @@
+某停車場的費率計算規則如下：
+  - 不滿30分鐘免費
+  - 停車2小時以內，每半小時10元
+  - 超過2小時以上的部份，每半小時30元
+  - 停車不能超過當天晚上12點
+請撰寫程式，輸入進廠及離場時間，計算需繳交的停車費。
+
+[Sample Output 1]
+======== Parking Fee System ========
+Begin_H:0
+Begin_M:55
+End_H:1
+End_M:4
+====================================
+*** Interval: 9 mins (0H 9M)
+*** Parking Fee: 0
+
+[Sample Output 2]
+======== Parking Fee System ========
+Begin_H:13
+Begin_M:0
+End_H:14
+End_M:31
+====================================
+*** Interval: 91 mins (1H 31M)
+*** Parking Fee: 30
+
+[Sample Output 3]
+======== Parking Fee System ========
+Begin_H:13
+Begin_M:0
+End_H:15
+End_M:1
+====================================
+*** Interval: 121 mins (2H 1M)
+*** Parking Fee: 40
+
+[Sample Output 4]
+======== Parking Fee System ========
+Begin_H:13
+Begin_M:0
+End_H:17
+End_M:1
+====================================
+*** Interval: 241 mins (4H 1M)
+*** Parking Fee: 160
+
+[Sample Output 5]
+======== Parking Fee System ========
+Begin_H:0
+Begin_M:0
+End_H:23
+End_M:59
+====================================
+*** Interval: 1439 mins (23H 59M)
+*** Parking Fee: 1330

@@ -1,0 +1,5 @@
+a = int(input("1st integer = "))
+b = int(input("2nd integer = "))
+print(a, "除以", b)
+print("商:", a//b)
+print("餘:", a%b)

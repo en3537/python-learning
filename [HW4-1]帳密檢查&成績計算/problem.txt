@@ -1,0 +1,46 @@
+帳密檢查最多三次機會。輸入多筆成績，
+印出：班級人數、及格人數、最高分、最高分人數及平均成績 (輸入成績，0~100，-1 for exit) (ID:i001, PWD:p001)
+
+[Sample Output 1]
+================================
+ID=i004
+PASSWORD=p001
+*** Sign-in failed.
+*** You have 2 more chance(s)!
+================================
+ID=i001
+PASSWORD=p006
+*** Sign-in failed.
+*** You have 1 more chance(s)!
+================================
+ID=i111
+PASSWORD=p111
+*** Sign-in failed.
+*** User login: failed 3 times
+
+
+[Sample Output 2]
+================================
+ID=i002
+PASSWORD=p001
+*** Sign-in failed.
+*** You have 2 more chance(s)! 
+================================
+ID=i001
+PASSWORD=p001
+================================
+請輸入成績:(-1 for exit)-4
+*** Error Data!
+請輸入成績:(-1 for exit)60
+請輸入成績:(-1 for exit)70
+請輸入成績:(-1 for exit)104
+*** Error Data!
+請輸入成績:(-1 for exit)10
+請輸入成績:(-1 for exit)70
+請輸入成績:(-1 for exit)-1
+================================
+班級人數:4
+及格人數:3
+最高分:70
+最高分人數:2
+平均成績:52.50

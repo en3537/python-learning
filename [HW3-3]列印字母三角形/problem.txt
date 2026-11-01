@@ -1,0 +1,22 @@
+列印字母三角形
+
+[Sample Output 1]
+N = 9
+IHGFEDCBA
+HGFEDCBA
+GFEDCBA
+FEDCBA
+EDCBA
+DCBA
+CBA
+BA
+A
+
+
+[Sample Output 2] 
+N = 5
+EDCBA
+DCBA
+CBA
+BA
+A

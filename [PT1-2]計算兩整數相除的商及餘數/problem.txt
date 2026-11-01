@@ -1,0 +1,8 @@
+輸入兩整數，印出兩整數相除的商及餘數
+
+[Sample Output]
+1st integer = 17
+2nd integer = 5
+17 除以 5
+商: 3
+餘: 2
