@@ -1,0 +1,40 @@
+帳密檢查：最多三次機會 
+
+[Requirement]
+IDPW = [["i000","p000"], ["i001","p001"], ["i002","p002"]]
+二維陣列
+
+[Sample Output 1] 
+================================
+ID=i111
+PASSWORD=p001
+------------------
+*** Sign-in failed.
+*** You have 2 more chance(s)!
+================================
+ID=i001
+PASSWORD=p111
+------------------
+*** Sign-in failed.
+*** You have 1 more chance(s)!
+================================
+ID=i001
+PASSWORD=p222
+------------------
+*** Sign-in failed.
+*** User login : failed 3 times
+
+
+[Sample Output 2] 
+================================
+ID=i001
+PASSWORD=p111
+------------------
+*** Sign-in failed.
+*** You have 2 more chance(s)!
+================================
+ID=i001
+PASSWORD=p001
+================================
++++ i001 Logged in!
++++ Welcome!

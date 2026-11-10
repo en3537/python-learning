@@ -1,0 +1,27 @@
+輸入n筆成績(ENG,MATH)，印出成績表(ENG, MATH, AVG) 。 AVG：一位小數
+
+[Requirement]使用二維陣列(2-Dimensional Array)
+g = []   # 2D-Array for Grades & AVG
+a = ["ENG", "MATH", "AVG"]  for Input
+
+[Sample Output] 
+請輸入班級人數=4
+===== No.1 =====
+ENG:20
+MATH:40
+===== No.2 =====
+ENG:70
+MATH:13
+===== No.3 =====
+ENG:60
+MATH:80
+===== No.4 =====
+ENG:10
+MATH:31
+
+====NO.===ENG====MATH====AVG====
+     1     20     40     30.0
+     2     70     13     41.5
+     3     60     80     70.0
+     4     10     31     20.5
+================================

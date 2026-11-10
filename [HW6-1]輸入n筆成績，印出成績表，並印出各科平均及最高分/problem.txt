@@ -1,0 +1,32 @@
+輸入n筆成績(ENG,MATH)，
+印出成績表(ENG, MATH, AVG) : 2D array，
+並印出各科平均(Rounding to integer)及最高分
+
+[Requirement]使用二維陣列(2-Dimensional Array)
+g = []   # 2D-Array for Grades & AVG
+a = ["ENG", "MATH", "AVG"]   for Input
+
+[Sample Output]
+請輸入班級人數=4
+===== No.1 =====
+ENG:60
+MATH:55
+===== No.2 =====
+ENG:90
+MATH:80
+===== No.3 =====
+ENG:90
+MATH:60
+===== No.4 =====
+ENG:40
+MATH:80
+
+====NO.===ENG====MATH====AVG====
+     1     60     55     58
+     2     90     80     85
+     3     90     60     75
+     4     40     80     60
+================================
+   MAX     90     80     85
+   AVG     70     69     70
+================================

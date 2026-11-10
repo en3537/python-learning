@@ -1,0 +1,41 @@
+All Zero二維平面(5*5)，連續輸入多筆座標，改為1(直到ENTER為止)，
+找出All Zero Row及All Zero Column
+
+[Sample Output 1]
+x,y:0,1
+x,y:0,3
+x,y:2,2
+x,y:
+=============
+0 1 0 1 0
+0 0 0 0 0
+0 0 1 0 0
+0 0 0 0 0
+0 0 0 0 0
+=== All Zero Row ===
+Row 1
+Row 3
+Row 4
+=== All Zero Column ===
+Column 0
+Column 4
+
+[Sample Output 2]
+x,y:0,0
+x,y:2,1
+x,y:2,2
+x,y:0,3
+x,y:0,4
+x,y:
+=============
+1 0 0 1 1
+0 0 0 0 0
+0 1 1 0 0
+0 0 0 0 0
+0 0 0 0 0
+=== All Zero Row ===
+Row 1
+Row 3
+Row 4
+=== All Zero Column ===
+None
